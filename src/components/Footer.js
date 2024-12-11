@@ -2,9 +2,16 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer>
-      <p>&copy; 2024 Queer Sports. All rights reserved.</p>
-    </footer>
+    <footer className="mt-auto text-white-50 text-center">
+      <p>Yale University WGSS 125. Final Project by Omar Espiricueta. Fall 2024.</p>
+      <p>
+        Powered by{' '}
+        <a href="https://getbootstrap.com/" className="text-white">
+          Bootstrap
+        </a>
+          .
+      </p>
+  </footer>
   );
 }
 

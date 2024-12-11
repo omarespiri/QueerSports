@@ -1,0 +1,112 @@
+/* Set the background and text color */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to bottom, #add8e6, #ffffff); /* Fading gradient */
+  font-family: Arial, sans-serif;
+  color: #001f3f;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.cover-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 42em;
+  padding: 1rem;
+  height: 100%;
+  text-align: center;
+}
+
+
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #001f3f;
+}
+
+p.lead {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  font-size: 1rem;
+  padding: 0.75rem 1.25rem;
+  background-color: #ffffff;
+  color: #333;
+  border: none;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #e0e0e0;
+  color: #000;
+}
+
+/* Navbar Styling */
+/* Navbar Container Styling */
+.nav-masthead {
+  display: flex;
+  align-items: center; /* Centers items vertically */
+  justify-content: space-between; /* Spaces heading and links */
+  color: #001f3f;
+}
+
+/* Navbar Heading Styling */
+.nav-masthead h3 {
+  margin: 0; /* Remove default margins */
+  padding: 0.5rem 1rem; /* Add consistent spacing */
+  font-size: 1.5rem;
+  color: #001f3f;
+}
+
+/* Navbar Links Styling */
+.nav-masthead .nav-link {
+  color: #001f3f; /* Navy Blue */
+  border-bottom: 0.25rem solid transparent; /* No underline initially */
+  transition: color 0.2s ease, border-bottom-color 0.2s ease;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  color: #4682b4;
+  border-bottom-color: rgba(70, 130, 180, 0.5);
+}
+
+.nav-masthead .nav-link.active {
+  color: #4682b4; /* Steel Blue for active link */
+  border-bottom-color: #4682b4; /* Solid underline for active link */
+}
+
+h3 {
+  color: #001f3f;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+  padding: 1rem 0;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+footer a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #333333;
+  text-decoration: underline;
+}
