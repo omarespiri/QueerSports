@@ -1,6 +1,6 @@
 import React from 'react';
 
-function TransAthletes() {
+function Sources() {
   const styles = {
     container: {
       padding: '1rem',
@@ -12,23 +12,21 @@ function TransAthletes() {
       fontSize: '2.5rem',
       fontWeight: 'bold',
       color: '#001f3f', // Navy blue for heading
-      textShadow: '0px 1px 2px rgba(0, 0, 0, 0.2)', // Subtle text shadow
+      textShadow: '0px 1px 2px rgba(0, 0, 0, 0.2)', // Match global text shadow
       marginBottom: '1rem',
     },
     paragraph: {
       fontSize: '1.25rem',
-      color: '#36454F', // Charcoal for paragraph text
+      color: '#36454F', // Charcoal for paragraph
     },
   };
 
   return (
     <div style={styles.container}>
-      <h1 style={styles.heading}>Trans-Athletes</h1>
-      <p style={styles.paragraph}>
-        Exploring media coverage and current dialogue of trans-athletes.
-      </p>
+      <h1 style={styles.heading}>Sources</h1>
+      <p style={styles.paragraph}>List of all sources used in this project.</p>
     </div>
   );
 }
 
-export default TransAthletes;
+export default Sources;
