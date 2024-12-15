@@ -4,7 +4,8 @@ function QueerAthletes() {
   return (
     <div style={styles.container}>
       <h1 style={styles.heading}>Queer Athletes</h1>
-      <p style={styles.leadParagraph}>Stories and activism from queer athletes.</p>
+      <p style={styles.leadParagraph}>Stories of some of the most prominent queer athletes in modern sports.</p>
+      <hr style={styles.separator} />
       <Slideshow />
     </div>
   );
@@ -15,17 +16,17 @@ const Slideshow = () => {
     {
       image: '/images/JasonCollins.jpg',
       caption: 'Jason Collins',
-      paragraph: 'This athlete broke barriers and advocated for inclusivity in sports.',
+      paragraph: 'Collins, a former professional basketball player, had a 13-season career in the NBA from 2001 to 2014. On April 19, 2013, he publicly came out as a gay man in a Sports Illustrated story, making history as the first active male athlete to come out publicly in one of the four major North American professional sports leagues (NBA, NFL, MLB, NHL), sending shockwaves through the sports world.',
     },
     {
       image: '/images/MeganRapinoe.jpg',
       caption: 'Megan Rapinoe',
-      paragraph: 'Paving the way for future generations, this athlete made history.',
+      paragraph: "Rapinoe, one of the most famous and influential athletes in soccer history, is also a significant figure for queer representation in sports. She came out as gay in 2012, just before the London Olympics, becoming one of the first high-profile women's soccer players to do so. Married to WNBA legend Sue Bird, the power couple continues to champion women's rights, LGBTQ+ equality, and racial justice.",
     },
     {
       image: '/images/LiaThomas.jpg',
       caption: 'Lia Thomas',
-      paragraph: 'Through resilience and determination, this athlete inspires others.',
+      paragraph: "Thomas, a former collegiate swimmer for the University of Pennsylvania, made history in 2022 as the first openly transgender athlete to win an NCAA Division I Championship, triumphing in the women's 500-yard freestyle. Her victory placed her at the center of a national debate about transgender athletes, as she transitioned from the men's team to the women's team in her senior year. Despite the controversy, Thomas remains a prominent activist for transgender athletes across all sports.",
     },
   ];
 
@@ -91,9 +92,9 @@ const styles = {
   },
   image: {
     width: '100%',
-    maxWidth: '600px', // Ensures consistent width
+    maxWidth: '800px', // Increased width
     height: 'auto',
-    maxHeight: '400px', // Ensures consistent height
+    maxHeight: '500px', // Increased height
     objectFit: 'cover', // Ensures proper aspect ratio
     borderRadius: '10px',
     boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.2)',
@@ -111,6 +112,14 @@ const styles = {
     height: '40px',
     fontSize: '1.5em',
     cursor: 'pointer',
+  },
+  separator: {
+    border: 'none',
+    borderTop: '2px solid #ccc', // Light gray line
+    margin: '1.5rem 0', // Spacing around the line
+    width: '80%', // Line width relative to the container
+    marginLeft: 'auto',
+    marginRight: 'auto',
   },
   arrowRight: {
     position: 'absolute',
@@ -140,5 +149,6 @@ const styles = {
     fontFamily: 'Arial, sans-serif',
   },
 };
+
 
 export default QueerAthletes;

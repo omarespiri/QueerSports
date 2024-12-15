@@ -51,10 +51,10 @@ function Navbar() {
           { to: '/', label: 'Home' },
           { to: '/queer-athletes', label: 'Queer Athletes' },
           { to: '/media-analysis', label: 'Media Analysis' },
-          { to: '/trans-athletes', label: 'Trans Athletes' },
+          { to: '/trans-athletes', label: 'Trans-Athletes' },
           { to: '/league-actions', label: 'League Actions' },
-          { to: '/attitude-changes', label: 'Attitude Changes' },
-          { to: '/sources', label: 'Project Sources' },
+          { to: '/timeline', label: 'Timeline' },
+          { to: '/Essay', label: 'Essay' },
         ].map(({ to, label }) => (
           <NavLink
             key={to}

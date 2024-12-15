@@ -1,12 +1,20 @@
 import React from 'react';
 
-function Sources() {
+function Essay() {
   const styles = {
     container: {
       padding: '1rem',
       textAlign: 'center',
       fontFamily: 'Arial, sans-serif', // Global font
       color: '#001f3f', // Navy blue for text
+    },
+    separator: {
+      border: 'none',
+      borderTop: '2px solid #ccc', // Light gray line
+      margin: '1.5rem 0', // Spacing around the line
+      width: '80%', // Line width relative to the container
+      marginLeft: 'auto',
+      marginRight: 'auto',
     },
     heading: {
       fontSize: '2.5rem',
@@ -23,10 +31,11 @@ function Sources() {
 
   return (
     <div style={styles.container}>
-      <h1 style={styles.heading}>Sources</h1>
-      <p style={styles.paragraph}>List of all sources used in this project.</p>
+      <h1 style={styles.heading}>Essay</h1>
+      <p style={styles.paragraph}>Essay that explains this project.</p>
+      <hr style={styles.separator} />
     </div>
   );
 }
 
-export default Sources;
+export default Essay;

@@ -34,8 +34,8 @@ function Home() {
   return (
     <main style={styles.main}>
       <div style={styles.container}>
-        <h1 style={styles.heading}>Breaking Barriers and Changing the Game.</h1>
-        <p style={styles.lead}>An overview of queerness in sports.</p>
+        <h1 style={styles.heading}>Breaking Barriers and Changing the Game</h1>
+        <p style={styles.lead}>An exploration of queerness in sports, highlighting key figures, stories, topics, and historic events.</p>
       </div>
     </main>
   );

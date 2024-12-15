@@ -7,8 +7,8 @@ import QueerAthletes from './pages/QueerAthletes';
 import MediaAnalysis from './pages/MediaAnalysis';
 import TransAthletes from './pages/TransAthletes';
 import LeagueActions from './pages/LeagueActions';
-import AttitudeChanges from './pages/AttitudeChanges';
-import Sources from './pages/Sources';
+import Timeline from './pages/Timeline';
+import Essay from './pages/Essay';
 
 function App() {
   const globalStyles = {
@@ -38,8 +38,8 @@ function App() {
             <Route path="/media-analysis" element={<MediaAnalysis />} />
             <Route path="/trans-athletes" element={<TransAthletes />} />
             <Route path="/league-actions" element={<LeagueActions />} />
-            <Route path="/attitude-changes" element={<AttitudeChanges />} />
-            <Route path="/sources" element={<Sources />} />
+            <Route path="/timeline" element={<Timeline />} />
+            <Route path="/essay" element={<Essay />} />
           </Routes>
         </div>
         <Footer />
