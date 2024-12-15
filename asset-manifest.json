@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/QueerSports/static/css/main.49faa5e3.css",
+    "main.js": "/QueerSports/static/js/main.7037a2c7.js",
+    "index.html": "/QueerSports/index.html",
+    "main.49faa5e3.css.map": "/QueerSports/static/css/main.49faa5e3.css.map",
+    "main.7037a2c7.js.map": "/QueerSports/static/js/main.7037a2c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49faa5e3.css",
+    "static/js/main.7037a2c7.js"
+  ]
+}
