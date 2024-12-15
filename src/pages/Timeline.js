@@ -85,64 +85,64 @@ function Timeline() {
 
   const timelineData = [
     {
-      year: '1924',
-      description: 'The first organized LGBTQ+ sports league was established.',
-      explanation: 'This league aimed to provide a safe space for LGBTQ+ athletes.',
-      source: 'https://example.com/1924-lgbtq-sports',
+      year: '1975',
+      description: 'Dave Kopay becomes the first NFL player to come out publicly as gay.',
+      explanation: "Kopay was retired at the time, but his coming out marked a monumental moment in history, challenging traditional perceptions of what it means to be a football player.",
+      source: 'https://magazine.washington.edu/feature/husky-legend-and-gay-icon-david-kopay-is-at-peace-and-at-home/',
     },
     {
-      year: '1981',
+      year: '1982',
       description: 'The first Gay Games took place in San Francisco.',
-      explanation: 'These games brought LGBTQ+ athletes from around the world together.',
-      source: 'https://example.com/1981-gay-games',
+      explanation: "These games brought together over 1,300 athletes from 170 cities to compete in a variety of sports, including basketball, track and field, volleyball, and more.",
+      source: 'https://www.advocate.com/sports/2018/8/03/7-fascinating-facts-about-gay-games#rebelltitem5',
     },
     {
-      year: '2001',
-      description: 'Billy Bean came out as gay after retiring from MLB.',
-      explanation: 'He later became an advocate for inclusion in professional baseball.',
-      source: 'https://example.com/2001-billy-bean',
+      year: '1999',
+      description: 'ESPN airs "World of the Gay Athlete"',
+      explanation: 'This was the first time a major mainstream media outlet highlighted queer athletes.',
+      source: 'https://www.outsports.com/2011/9/13/4051830/moment-19-espn-airs-world-of-the-gay-athlete/',
     },
     {
       year: '2005',
       description: 'Sheryl Swoopes, WNBA star, came out publicly.',
-      explanation: 'This was a landmark moment for LGBTQ+ visibility in women’s sports.',
-      source: 'https://example.com/2005-swoopes',
+      explanation: "Swoopes' story sparked confusion for some, as she had previously been married to a man. Nevertheless, her coming out was a landmark moment for queer women athletes.",
+      source: 'https://www.espn.com/espnw/voices/story/_/id/23532000/the-unexpected-legacy-sheryl-swoopes',
     },
     {
       year: '2013',
       description: 'Jason Collins came out as gay.',
-      explanation: 'He became the first active NBA player to do so.',
-      source: 'https://example.com/2013-jason-collins',
+      explanation: "He became the first active male player in the four major North American professional sports leagues to come out.",
+      source: 'https://www.si.com/nba/2013/04/29/jason-collins-comes-out-openly-gay-male-athlete-wizards-david-stern-arn-tellem-ernie-grunfeld',
     },
     {
       year: '2014',
-      description: 'Michael Sam came out before the NFL draft.',
-      explanation: 'He became the first openly gay player to be drafted by an NFL team.',
-      source: 'https://example.com/2014-michael-sam',
+      description: 'Michael Sam became the first openly gay player to be drafted into the NFL.',
+      explanation: "This was a monumental moment, paving the way for future athletes to live authentically without hiding who they are to be accepted in professional leagues.",
+      source: 'https://www.nytimes.com/2014/02/10/sports/michael-sam-college-football-star-says-he-is-gay-ahead-of-nfl-draft.html',
     },
     {
-      year: '2016',
-      description: 'Chris Mosier joined the U.S. national team as a transgender athlete.',
-      explanation: 'He broke barriers for transgender athletes in the Olympics.',
-      source: 'https://example.com/2016-chris-mosier',
-    },
-    {
-      year: '2019',
-      description: 'Megan Rapinoe advocated for LGBTQ+ rights during the World Cup.',
-      explanation: 'She used her platform to promote equality and inclusion.',
-      source: 'https://example.com/2019-rapinoe',
+      year: '2015',
+      description: 'Caitlyn Jenner publicly came out as transgender.',
+      explanation: "Jenner, a former Olympic gold medalist, became one of the most visible and famous transgender individuals and athletes of all time.",
+      source: 'https://www.theguardian.com/tv-and-radio/2017/may/08/caitlyn-jenner-bruce-transitioning-kardashians-reality-tv-star',
     },
     {
       year: '2021',
       description: 'Carl Nassib came out as gay while playing in the NFL.',
-      explanation: 'He became a beacon of hope for LGBTQ+ athletes in football.',
-      source: 'https://example.com/2021-nassib',
+      explanation: 'He became the first gay active player in the NFL.',
+      source: 'https://www.outsports.com/2021/6/21/22544294/raiders-player-carl-nassib-gay-nfl-coming-out/',
     },
     {
-      year: '2023',
-      description: 'NHL players participated in Pride campaigns.',
-      explanation: 'These campaigns faced controversies but promoted LGBTQ+ inclusion.',
-      source: 'https://example.com/2023-nhl-pride',
+      year: '2022',
+      description: 'Lia Thomas becomes the first openly transgender athlete to win an NCAA Division 1 Championship in any sport.',
+      explanation: "Despite the media firestorm, she emerged as a trailblazer for transgender athletes.",
+      source: 'https://www.nytimes.com/2022/03/17/sports/lia-thomas-swimmer-wins.html',
+    },
+    {
+      year: '2024',
+      description: '199 openly LGBTQ+ athletes competed in the 2024 Paris Olympics.',
+      explanation: "This number marked a milestone and set a record for queer athletes.",
+      source: 'https://www.outsports.com/olympics/team-lgbtq/',
     },
   ];
 
@@ -150,7 +150,7 @@ function Timeline() {
     <div style={styles.container}>
       <h1 style={styles.heading}>Milestones in LGBTQ+ Sports History</h1>
       <p style={styles.paragraph}>
-        A timeline of key events highlighting changing attitudes toward LGBTQ+ athletes.
+        A timeline of key events highlighting important events for LGBTQ+ athletes.
       </p>
       <hr style={styles.separator} />
       <ul style={styles.timeline}>

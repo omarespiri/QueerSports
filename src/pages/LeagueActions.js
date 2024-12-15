@@ -133,7 +133,7 @@ function LeagueActions() {
     <div style={styles.container}>
       <h1 style={styles.heading}>Actions of Professional Leagues</h1>
       <p style={styles.paragraph}>
-        Exploring the actions of professional sports leagues towards queer athletes and causes.
+        This page highlights the current efforts of professional sports leagues to promote inclusivity for queer individuals. Like many corporate initiatives, these actions are often highly sanitized and tailored to appeal to the general public, avoiding more contentious issues such as the inclusion of transgender athletes. While these initiatives represent some progress toward greater acceptance of LGBTQ+ communities in sports, they also reveal the limitations of corporate approaches. Much work remains for these leagues to fully embrace and support all members of the queer community.
       </p>
       <hr style={styles.separator} />
       <div style={styles.grid}>

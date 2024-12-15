@@ -2,7 +2,6 @@
   "name": "queer-sports",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://omarespirir.github.io/QueerSports",
   "dependencies": {
     "bootstrap": "^5.3.3",
     "cra-template": "1.2.0",
