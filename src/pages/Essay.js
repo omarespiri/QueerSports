@@ -27,13 +27,36 @@ function Essay() {
       fontSize: '1.25rem',
       color: '#36454F', // Charcoal for paragraph
     },
+    iframe: {
+      width: '80%',
+      height: '600px',
+      border: 'none',
+      marginTop: '1.5rem',
+    },
+    link: {
+      fontSize: '1.25rem',
+      color: '#007bff', // Link blue
+      textDecoration: 'none',
+      marginTop: '1rem',
+      display: 'inline-block',
+    },
   };
 
   return (
     <div style={styles.container}>
       <h1 style={styles.heading}>Essay</h1>
-      <p style={styles.paragraph}>Essay that explains this project.</p>
+      <p style={styles.paragraph}>
+        Below is the essay that explains this project. You can view it directly or download it using the link below.
+      </p>
+      <iframe
+        src="/pdfs/FinalEssay.pdf"
+        style={styles.iframe}
+        title="Final Essay"
+      ></iframe>
       <hr style={styles.separator} />
+      <a href="/pdfs/FinalEssay.pdf" style={styles.link} target="_blank" rel="noopener noreferrer">
+        Download Final Essay
+      </a>
     </div>
   );
 }
